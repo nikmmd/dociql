@@ -147,6 +147,16 @@ Using an API spec to generate your documentation has a number of great advantage
 
 ## Development
 
+```
+yarn
+```
+
+```
+node bin/dociql -H "authorization:Bearer <token>" <path_to_config.yml>
+```
+
+This generates a static site in the public dir
+
 ### Testing
 
 > Coming soon!
